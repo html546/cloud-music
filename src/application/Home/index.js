@@ -1,11 +1,14 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config'
+import { Top } from './style'
 
 const Home = (props) => {
     const { route } = props;
     return (
         <div>
-            <div>Home</div>
+            <Top>
+                
+            </Top>
             {renderRoutes(route.routes)}
         </div>
     );
