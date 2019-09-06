@@ -7,7 +7,9 @@ const Home = (props) => {
     return (
         <div>
             <Top>
-                
+                <span className="iconfont memu">&#xe65c;</span>
+                <span className="title">WebApp</span>
+                <span className="iconfont search">&#xe62b;</span>
             </Top>
             {renderRoutes(route.routes)}
         </div>
